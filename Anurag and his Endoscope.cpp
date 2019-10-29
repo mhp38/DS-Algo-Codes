@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-int qt[1000001][3];
+int qt[1000001][3];// Sum of NxM over all the test cases does not exceed 1000000. 10^6 na dile kintu run time khaba
 int pipe[8][4]={{0,0,0,0},{1,1,1,1},{0,1,0,1},{1,0,1,0},{0,1,1,0},{0,0,1,1},{1,0,0,1},{1,1,0,0}};
 
 int main()
